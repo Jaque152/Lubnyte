@@ -1,4 +1,3 @@
-// src/lib/catalog.ts
 export const IVA_RATE = 0.16;
 
 export type Tier = {
@@ -35,66 +34,66 @@ export const contactInfo = {
 const catalogEs = {
   subjects: [
     "Videojuego móvil 2D / 3D",
-    "Gamificación para empresas",
-    "Diseño de mecánicas",
-    "Arte y diseño",
-    "Aplicación móvil",
-    "Integraciones y conectividad",
-    "Otro",
+    "Gamificación corporativa",
+    "Diseño de mecánicas de juego",
+    "Arte, modelado y diseño UI",
+    "Desarrollo de aplicación móvil",
+    "Integración de APIs y sistemas",
+    "Otro requerimiento",
   ],
   values: [
-    { n: "01", title: "Visión futurista y creatividad", body: "Elegir LUNBYTE es apostar por una fusión única de tecnología, creatividad y visión de futuro que impulsa a las marcas a trascender lo convencional." },
-    { n: "02", title: "Integración multidisciplinaria", body: "Nuestra fortaleza está en unir desarrollo, arte, diseño y estrategia para crear experiencias funcionales y emocionalmente impactantes." },
-    { n: "03", title: "Compromiso y transparencia", body: "Trabajamos con pasión y comunicación constante, acompañando al cliente desde la idea inicial hasta el lanzamiento final." },
-    { n: "04", title: "Tecnología ágil y precisión", body: "Aplicamos tecnologías emergentes y metodologías ágiles para entregar resultados modernos, sostenibles y ejecutados con precisión." },
+    { n: "01", title: "Innovación y visión vanguardista", body: "Optar por LUNBYTE significa confiar en una sinergia tecnológica y creativa que proyecta a tu marca por encima de los estándares convencionales." },
+    { n: "02", title: "Desarrollo multidisciplinario", body: "Destacamos por entrelazar programación pura, diseño de interfaces y estrategia de negocio, forjando soluciones que cautivan tanto visual como funcionalmente." },
+    { n: "03", title: "Alineación y transparencia", body: "Nos dedicamos de lleno a tu visión, manteniendo un canal abierto, honesto y directo desde el prototipo inicial hasta el día de publicación." },
+    { n: "04", title: "Arquitectura ágil y precisa", body: "Utilizamos frameworks modernos y procesos dinámicos para garantizar que cada entregable sea robusto, fácilmente escalable y lanzado a tiempo." },
   ],
   missions: [
     {
       n: "01", code: "UNIVERSO INTERACTIVO", title: "Universo Interactivo",
-      lead: "Creamos videojuegos móviles 2D y 3D que combinan arte, narrativa y tecnología en perfecta armonía. Nuestro proceso inicia con la conceptualización de la idea y la definición del gameplay, para garantizar que cada jugador experimente una inmersión total desde el primer toque en pantalla.",
+      lead: "Diseñamos aventuras móviles en 2D y 3D donde la narrativa y el código convergen de forma magistral. Arrancamos estructurando el núcleo del gameplay para asegurar una inmersión inquebrantable desde el primer minuto.",
       blocks: [
-        { title: "Desarrollo de experiencias interactivas", body: "El equipo de LUNBYTE domina herramientas avanzadas como Unity y Unreal Engine, lo que nos permite construir mundos detallados, sistemas de progresión equilibrados y experiencias visuales impactantes. Cada textura, animación y sonido está diseñado para transmitir emoción, desafío y diversión." },
-        { title: "Engagement y personalidad de juego", body: "Integramos sistemas de recompensas, misiones diarias, rankings y componentes sociales para mantener el interés y la competitividad de los usuarios. Nuestra meta es clara: crear títulos que se sientan vivos, auténticos y con identidad propia." },
+        { title: "Creación de mundos inmersivos", body: "Nuestros desarrolladores exprimen las capacidades de Unity y Unreal Engine para renderizar entornos deslumbrantes y físicas consistentes. Cada textura y cada partícula de sonido está programada para evocar emoción pura." },
+        { title: "Psicología del jugador y engagement", body: "Implementamos árboles de habilidades, tablas de clasificación y eventos rotativos para mantener encendida la chispa competitiva de la comunidad. Hacemos que tu juego se sienta vivo." },
       ],
     },
     {
       n: "02", code: "POWERPLAY CORPORATIVO", title: "PowerPlay Corporativo",
-      lead: "La gamificación es el puente entre la productividad y la motivación. En LUNBYTE transformamos los procesos empresariales en experiencias interactivas que inspiran participación, aprendizaje y compromiso.",
+      lead: "Aplicamos dinámicas de juego para revolucionar la capacitación y el rendimiento interno. En LUNBYTE convertimos las métricas tradicionales de tu empresa en aventuras motivacionales.",
       blocks: [
-        { title: "Gamificación que transforma el día a día", body: "Diseñamos entornos digitales donde empleados, clientes o estudiantes se convierten en jugadores activos de su propio progreso. Mediante logros, recompensas y desafíos, convertimos tareas cotidianas en experiencias emocionantes y significativas." },
-        { title: "Experiencias a la medida para empresas", body: "Trabajamos junto a cada organización para entender sus metas, cultura y retos internos. Diseñamos experiencias personalizadas que integran tecnología, creatividad y análisis de datos, haciendo del aprendizaje y la productividad una aventura que todos quieren jugar." },
+        { title: "Redefiniendo el flujo de trabajo", body: "Estructuramos ecosistemas interactivos que transforman tareas monótonas en retos gratificantes. Mediante sistemas de insignias y recompensas medibles, disparamos la productividad de equipos y alumnos." },
+        { title: "Arquitectura gamificada a la medida", body: "Estudiamos la cultura de tu organización para moldear plataformas que se integren directamente a tu software existente, logrando una adopción inmediata y orgánica por parte de los usuarios." },
       ],
     },
     {
       n: "03", code: "ENGINE DYNAMICS", title: "Engine Dynamics",
-      lead: "Detrás de cada gran juego hay un sistema invisible que da sentido a la experiencia: sus mecánicas. En LUNBYTE diseñamos la estructura que mantiene la diversión equilibrada, fluida y desafiante.",
+      lead: "Arquitectamos la lógica matemática e invisible que dicta el ritmo de tu producto. En LUNBYTE equilibramos cada variable para que la curva de aprendizaje sea tan retadora como justa.",
       blocks: [
-        { title: "Balance y diseño de mecánicas", body: "Analizamos la progresión, la curva de dificultad, la frecuencia de recompensas y los sistemas de monetización para mantener el atractivo del juego. Combinamos experiencia técnica y visión de jugador para lograr un equilibrio entre reto y satisfacción." },
-        { title: "Comunidad y retención", body: "Desarrollamos experiencias multijugador, sistemas de ranking, eventos dinámicos y estrategias de retención que mantienen a la comunidad activa. Diseñamos modelos sostenibles con monetización inteligente que no afectan la experiencia del usuario." },
+        { title: "Calibración de mecánicas núcleo", body: "Auditamos la tasa de progreso, los sistemas de daño y la aparición de recompensas para evitar frustraciones. Combinamos analítica de datos con intuición de diseño para un gameplay balanceado." },
+        { title: "Monetización inteligente y retención", body: "Integramos arquitecturas de compras in-app y pases de temporada no intrusivos que aseguran rentabilidad sin corromper la filosofía del juego ni ahuyentar a los jugadores." },
       ],
     },
     {
       n: "04", code: "PIXELCRAFT STUDIO", title: "PixelCraft Studio",
-      lead: "El arte da vida a cada historia, y en LUNBYTE nuestro estudio creativo PixelCraft combina talento artístico con precisión técnica para crear universos visuales memorables.",
+      lead: "Nuestro departamento creativo conceptualiza y materializa apartados visuales impresionantes. En LUNBYTE creemos que el primer impacto entra por los ojos y se consolida a través de la identidad.",
       blocks: [
-        { title: "Arte 2D/3D con identidad propia", body: "Creamos ilustraciones, personajes, entornos y animaciones en 2D y 3D con un estilo único. Nuestro proceso abarca desde el bocetado conceptual hasta el rigging y la animación, cuidando cada detalle para reflejar la esencia del proyecto." },
-        { title: "Diseño UI/UX y coherencia visual", body: "Diseñamos interfaces intuitivas, fluidas y visualmente impactantes. Alineamos la estética con el tono narrativo del juego o aplicación, logrando una experiencia inmersiva y coherente. En LUNBYTE el arte no solo se ve: se siente." },
+        { title: "Dirección de arte con carácter", body: "Producimos desde concept art hasta riggings 3D complejos. Ya sea que busques estéticas pixel art nostálgicas o hiperrealismo, nuestro trazo se adapta al código genético de tu proyecto." },
+        { title: "Experiencia e interfaz de usuario (UX/UI)", body: "Mapeamos el recorrido del usuario para diseñar menús dinámicos, minimalistas e intuitivos que respeten la ambientación general, asegurando que la navegación jamás se sienta como un obstáculo." },
       ],
     },
     {
       n: "05", code: "APPVERSE", title: "AppVerse",
-      lead: "En un mundo móvil, tu aplicación es tu carta de presentación. En LUNBYTE diseñamos y desarrollamos apps híbridas personalizadas que combinan estética, rendimiento y funcionalidad.",
+      lead: "Construimos aplicaciones híbridas robustas y elegantes, pensadas para dominar las tiendas digitales. En LUNBYTE transformamos tu modelo de negocio en una herramienta de bolsillo indispensable.",
       blocks: [
-        { title: "Diseño y tecnología para apps escalables", body: "Partimos del diseño centrado en el usuario, estudiando experiencia, navegabilidad y flujo para crear interfaces intuitivas. Desde apps corporativas y educativas hasta plataformas de entretenimiento, cada proyecto se construye con precisión y escalabilidad." },
-        { title: "Metodología ágil y calidad técnica", body: "Aplicamos metodologías ágiles con entregas progresivas y retroalimentación constante. Supervisamos cada fase para asegurar rendimiento rápido, estabilidad, seguridad y un diseño que marque tendencia." },
+        { title: "Código nativo e híbrido escalable", body: "Iniciamos con investigación de experiencia de usuario para garantizar flujos lógicos. Entregamos plataformas veloces y atractivas que corren a la perfección tanto en iOS como en ecosistemas Android." },
+        { title: "Despliegues ágiles y sostenidos", body: "Trabajamos bajo sprints intensivos que permiten testeos tempranos. Así, aseguramos que tu aplicación llegue al mercado libre de cuellos de botella y lista para escalar en infraestructura." },
       ],
     },
     {
       n: "06", code: "DATALINK", title: "DataLink",
-      lead: "Las aplicaciones modernas viven conectadas a un ecosistema digital más amplio. En LUNBYTE creamos esa conexión: integraciones y conectividad que permiten que tus sistemas se comuniquen de forma segura, eficiente y en tiempo real.",
+      lead: "Enlazamos tus plataformas con el mundo exterior. A través de LUNBYTE, tu app dejará de ser una isla para convertirse en un ecosistema interconectado y alimentado por datos en tiempo real.",
       blocks: [
-        { title: "Integraciones inteligentes para tu negocio", body: "Integramos pasarelas de pago, CRMs, ERPs, notificaciones, webhooks y APIs externas para automatizar procesos, mejorar la experiencia del usuario y potenciar el flujo de datos. Cada integración se plantea como una expansión natural." },
-        { title: "Estabilidad, seguridad y escalabilidad", body: "Realizamos pruebas exhaustivas para garantizar que cada conexión sea estable, segura y escalable. Con DataLink tu aplicación deja de ser un sistema aislado para convertirse en parte de una red inteligente que evoluciona contigo." },
+        { title: "Mapeo de APIs y conectores", body: "Acoplamos motores de pago, bases de datos ERP, gestores CRM y sistemas de notificaciones push para centralizar tus operaciones y reducir los tiempos de respuesta de tu negocio." },
+        { title: "Infraestructura de alta disponibilidad", body: "Blindamos cada endpoint y optimizamos las consultas para que la transferencia de información masiva ocurra con niveles de latencia casi nulos y máxima protección criptográfica." },
       ],
     }
   ] as Mission[],
@@ -116,7 +115,7 @@ const catalogEs = {
       summary: "Convertimos capacitación, ventas y cultura interna en sistemas de juego medibles.",
       tiers: [
         { id: "7378", name: "Juego interactivo básico", price: 500, blurb: "Ideal para capacitaciones o presentaciones interactivas." },
-        { id: "7379", name: "Experiencia gamificada personalizada", price: 4500, blurb: "Adaptada a las necesidades de la empresa, con integración a sistemas internos." },
+        { id: "7379", name: "Experiencia gamificada personalizada", price: 4500, blurb: "Adaptada a las necesidades específicas de la empresa, con integración a sistemas internos." },
         { id: "7380", name: "Plataforma de gamificación", price: 6100, blurb: "Sistemas de puntos, recompensas y seguimiento de desempeño." },
       ],
     },
@@ -135,8 +134,8 @@ const catalogEs = {
       title: "Arte y diseño para videojuegos",
       summary: "PixelCraft Studio: ilustración, sprites, modelado 3D e interfaces con identidad propia.",
       tiers: [
-        { id: "7384", name: "Ilustraciones 2D", price: 200, blurb: "Ilustración básica de personaje, objeto o escena." },
-        { id: "7385", name: "Sprite y animaciones 2D", price: 2800, blurb: "Dependiendo de la complejidad del set de animación." },
+        { id: "7384", name: "Ilustraciones 2D", price: 200, blurb: "Ilustración básica." },
+        { id: "7385", name: "Sprite y animaciones 2D", price: 2800, blurb: "Dependiendo de la complejidad." },
         { id: "7386", name: "Modelado y animación 3D", price: 2600, blurb: "Para personajes y escenarios básicos." },
         { id: "7387", name: "Diseño de interfaces (UI/UX)", price: 3500, blurb: "Adaptado a la estética y al tono narrativo del juego." },
       ],
@@ -146,12 +145,12 @@ const catalogEs = {
       title: "Desarrollo de aplicaciones móviles",
       summary: "Apps híbridas para iOS u Android, del starter minimalista al producto completo con soporte.",
       tiers: [
-        { id: "7388", name: "App híbrida starter", price: 15000, blurb: "Una plataforma, 3-5 pantallas, navegación simple, sin backend complejo, sin pagos, sin geolocalización, diseño minimalista." },
-        { id: "7389", name: "App híbrida básica", price: 18000, blurb: "6-8 pantallas, formulario de contacto, menú sencillo, iconos personalizados, testing básico, publicación en tienda (solo Android)." },
-        { id: "7391", name: "App híbrida multiplataforma", price: 20000, blurb: "iOS + Android usando plantilla, con integraciones simples: push y login con email." },
-        { id: "7392", name: "App UI personalizado", price: 22000, blurb: "Diseño UI a la medida, 6–8 pantallas, navegación elaborada y backend simple opcional." },
-        { id: "7393", name: "App completa", price: 25000, blurb: "Login, sincronización básica de datos, notificaciones, quizás integración de API externa simple, diseño, publicación en tienda." },
-        { id: "7394", name: "App completa + soporte", price: 28000, blurb: "UI personalizada, pantalla de administrador básica, diseño atractivo, testing algo más riguroso, soporte para Android + iOS." },
+        { id: "7388", name: "App híbrida starter", price: 15000, blurb: "App híbrida muy básica (una plataforma, Android u iOS), 3-5 pantallas, navegación simple, sin backend complejo, sin pagos, sin geolocalización, diseño minimalista." },
+        { id: "7389", name: "App híbrida básica", price: 18000, blurb: "App híbrida muy básica (una plataforma, Android u iOS), 6-8 pantallas, formulario de contacto, menú sencillo, iconos personalizados, testing básico, publicación en tienda (solo Android)." },
+        { id: "7391", name: "App híbrida multiplataforma", price: 20000, blurb: "Versión híbrida para ambas plataformas (iOS + Android) usando plantilla, algunas integraciones simples (notificaciones push, login con email)." },
+        { id: "7392", name: "App UI personalizado", price: 22000, blurb: "App con diseño UI personalizado, 6-8 pantallas, navegación elaborada, posibilidad de agregar backend simple." },
+        { id: "7393", name: "App completa", price: 25000, blurb: "Híbrida con características completas: login, sincronización básica de datos, notificaciones, quizás integración de API externa simple, diseño, publicación en tienda." },
+        { id: "7394", name: "App completa + soporte", price: 28000, blurb: "App híbrida pequeña con UI personalizada, pantalla de administrador básica, diseño atractivo, testing algo más riguroso, soporte para Android + iOS." },
       ],
     },
     {
@@ -159,10 +158,10 @@ const catalogEs = {
       title: "Optimización y actualización de apps",
       summary: "Rescatamos, afinamos y modernizamos productos que ya están en producción.",
       tiers: [
-        { id: "7395", name: "Ajuste rápido", price: 1000, blurb: "Optimización de carga de una pantalla, corrección de bugs menores y actualización de plugins." },
-        { id: "7396", name: "Mejoras de UI/UX", price: 3000, blurb: "Rediseño de uno o dos flujos (por ejemplo flujo de login, flujo de perfil), actualización menor de versiones de iOS/Android, optimización de imágenes." },
+        { id: "7395", name: "Ajuste rápido", price: 1000, blurb: "Ajustes rápidos: optimización de carga de una pantalla, corregir bugs menores, actualizar bibliotecas o plugins." },
+        { id: "7396", name: "Mejoras de UI/UX", price: 3000, blurb: "Mejoras de UI/UX: rediseño de uno o dos flujos (por ejemplo flujo de login, flujo de perfil), actualización menor de versiones de iOS/Android, optimización de imágenes." },
         { id: "7397", name: "Actualizaciones múltiples", price: 6000, blurb: "Actualizaciones múltiples pantallas rediseñadas, adaptación a nuevas versiones del sistema operativo (iOS / Android), mejora de animaciones, optimización de batería en ciertos módulos." },
-        { id: "7398", name: "Optimización integral", price: 9000, blurb: "Servicio de actualización integral: UI/UX rediseño completo de módulo, migración de dependencias, optimización de velocidad general, auditoría de consumo de batería." },
+        { id: "7398", name: "Optimización integral", price: 10000, blurb: "Servicio de actualización y optimización integral de una app de complejidad pequeña-mediana: UI/UX rediseño completo de una sección o módulo importante, migración de dependencias a versiones actuales, optimización de velocidad general de la app, auditoría de consumo de batería, ajustar compatibilidad con varias versiones de SO." },
       ],
     },
     {
@@ -170,7 +169,7 @@ const catalogEs = {
       title: "Integraciones y conectividad",
       summary: "DataLink: pasarelas de pago, CRMs, ERPs, webhooks y APIs externas conectadas en tiempo real.",
       tiers: [
-        { id: "7399", name: "Pago simple", price: 100, blurb: "Integrar un botón de pago o configurar el SDK de una pasarela en una app existente." },
+        { id: "7399", name: "Pago simple", price: 100, blurb: "Integrar un botón de pago simple o configurar el SDK de una pasarela en una app existente." },
         { id: "7400", name: "Flujo de pago", price: 500, blurb: "Flujo de pago completo (checkout simple), múltiples endpoints de una API externa, conectar con redes sociales + login + perfil." },
         { id: "7401", name: "CRM externo", price: 1500, blurb: "Conectar app con CRM externo para enviar datos de usuario, integrar pagos + notificaciones push." },
         { id: "7402", name: "Integración completa", price: 2600, blurb: "CRM + ERP simple + pagos + API externas, webhook, sincronización bidireccional y manejo de autenticación segura." },
@@ -183,65 +182,65 @@ const catalogEn = {
   subjects: [
     "2D / 3D Mobile Game",
     "Corporate Gamification",
-    "Mechanics Design",
-    "Art and Design",
-    "Mobile App",
-    "Integrations and Connectivity",
-    "Other",
+    "Game Mechanics Design",
+    "Art, 3D Modeling & UI Design",
+    "Mobile App Development",
+    "API & System Integrations",
+    "Other Request",
   ],
   values: [
-    { n: "01", title: "Futuristic vision and creativity", body: "Choosing LUNBYTE means betting on a unique fusion of technology, creativity, and forward-thinking that drives brands to transcend the conventional." },
-    { n: "02", title: "Multidisciplinary integration", body: "Our strength lies in uniting development, art, design, and strategy to create functional and emotionally impactful experiences." },
-    { n: "03", title: "Commitment and transparency", body: "We work with passion and constant communication, accompanying the client from the initial idea to the final launch." },
-    { n: "04", title: "Agile technology and precision", body: "We apply emerging technologies and agile methodologies to deliver modern, sustainable, and precisely executed results." },
+    { n: "01", title: "Innovation and avant-garde vision", body: "Choosing LUNBYTE means trusting a technological and creative synergy that projects your brand above conventional standards." },
+    { n: "02", title: "Multidisciplinary development", body: "We excel at weaving pure coding, interface design, and business strategy together, forging solutions that captivate both visually and functionally." },
+    { n: "03", title: "Alignment and transparency", body: "We fully dedicate ourselves to your vision, keeping an open, honest, and direct channel from the initial prototype to launch day." },
+    { n: "04", title: "Agile and precise architecture", body: "We utilize modern frameworks and dynamic workflows to guarantee that every deliverable is robust, easily scalable, and launched on time." },
   ],
   missions: [
     {
       n: "01", code: "INTERACTIVE UNIVERSE", title: "Interactive Universe",
-      lead: "We create 2D and 3D mobile games that combine art, narrative, and technology in perfect harmony. Our process starts with concept ideation and gameplay definition, ensuring every player experiences total immersion.",
+      lead: "We design 2D and 3D mobile adventures where narrative and code masterfully converge. We start by structuring the core gameplay to ensure unbreakable immersion from the very first minute.",
       blocks: [
-        { title: "Development of interactive experiences", body: "The LUNBYTE team masters advanced tools like Unity and Unreal Engine, allowing us to build detailed worlds, balanced progression systems, and striking visual experiences. Every texture, animation, and sound is designed to convey emotion, challenge, and fun." },
-        { title: "Engagement and game personality", body: "We integrate reward systems, daily missions, rankings, and social components to maintain user interest and competitiveness. Our goal is clear: to create titles that feel alive, authentic, and with their own identity." },
+        { title: "Creation of immersive worlds", body: "Our developers maximize the capabilities of Unity and Unreal Engine to render stunning environments and consistent physics. Every texture and sound particle is programmed to evoke pure emotion." },
+        { title: "Player psychology and engagement", body: "We implement skill trees, leaderboards, and rotating events to keep the community's competitive spark alive. We make your game feel alive." },
       ],
     },
     {
       n: "02", code: "CORPORATE POWERPLAY", title: "Corporate PowerPlay",
-      lead: "Gamification is the bridge between productivity and motivation. At LUNBYTE, we transform business processes into interactive experiences that inspire participation, learning, and commitment.",
+      lead: "We apply game dynamics to revolutionize training and internal performance. At LUNBYTE, we turn your company's traditional metrics into motivational adventures.",
       blocks: [
-        { title: "Gamification that transforms daily life", body: "We design digital environments where employees, clients, or students become active players in their own progress. Through achievements, rewards, and challenges, we turn everyday tasks into exciting and meaningful experiences." },
-        { title: "Custom experiences for companies", body: "We work alongside each organization to understand its goals, culture, and internal challenges. We design personalized experiences that integrate technology, creativity, and data analysis, making learning and productivity an adventure everyone wants to play." },
+        { title: "Redefining workflows", body: "We structure interactive ecosystems that transform monotonous tasks into rewarding challenges. Through measurable badge and reward systems, we skyrocket the productivity of teams and students." },
+        { title: "Tailored gamified architecture", body: "We study your organization's culture to mold platforms that integrate directly with your existing software, achieving immediate and organic adoption by users." },
       ],
     },
     {
       n: "03", code: "ENGINE DYNAMICS", title: "Engine Dynamics",
-      lead: "Behind every great game is an invisible system that makes sense of the experience: its mechanics. At LUNBYTE, we design the structure that keeps the fun balanced, fluid, and challenging.",
+      lead: "We architect the invisible mathematical logic that dictates the rhythm of your product. At LUNBYTE, we balance every variable so that the learning curve is as challenging as it is fair.",
       blocks: [
-        { title: "Mechanics design and balancing", body: "We analyze progression, difficulty curve, reward frequency, and monetization systems to maintain the game's appeal. We combine technical expertise and player vision to achieve a balance between challenge and satisfaction." },
-        { title: "Community and retention", body: "We develop multiplayer experiences, ranking systems, dynamic events, and retention strategies that keep the community active. We design sustainable models with smart monetization that do not affect the user experience." },
+        { title: "Core mechanics calibration", body: "We audit the progression rate, damage systems, and reward spawns to prevent player frustration. We combine data analytics with design intuition for balanced gameplay." },
+        { title: "Smart monetization and retention", body: "We integrate non-intrusive in-app purchase architectures and season passes that ensure profitability without corrupting the game's philosophy or driving players away." },
       ],
     },
     {
       n: "04", code: "PIXELCRAFT STUDIO", title: "PixelCraft Studio",
-      lead: "Art brings every story to life, and at LUNBYTE our creative studio PixelCraft combines artistic talent with technical precision to create memorable visual universes.",
+      lead: "Our creative department conceptualizes and materializes impressive visual assets. At LUNBYTE, we believe the first impact comes through the eyes and is consolidated through identity.",
       blocks: [
-        { title: "2D/3D Art with its own identity", body: "We create illustrations, characters, environments, and animations in 2D and 3D with a unique style. Our process ranges from conceptual sketching to rigging and animation, taking care of every detail to reflect the essence of the project." },
-        { title: "UI/UX Design and visual consistency", body: "We design intuitive, fluid, and visually striking interfaces. We align aesthetics with the narrative tone of the game or application, achieving an immersive and coherent experience. At LUNBYTE, art is not just seen: it is felt." },
+        { title: "Art direction with character", body: "We produce everything from concept art to complex 3D riggings. Whether you're looking for nostalgic pixel art aesthetics or hyper-realism, our stroke adapts to your project's genetic code." },
+        { title: "User experience and interface (UX/UI)", body: "We map the user journey to design dynamic, minimalist, and intuitive menus that respect the overall atmosphere, ensuring navigation never feels like an obstacle." },
       ],
     },
     {
       n: "05", code: "APPVERSE", title: "AppVerse",
-      lead: "In a mobile world, your application is your cover letter. At LUNBYTE, we design and develop custom hybrid apps that combine aesthetics, performance, and functionality.",
+      lead: "We build robust and elegant hybrid applications designed to dominate digital stores. At LUNBYTE, we transform your business model into an indispensable pocket tool.",
       blocks: [
-        { title: "Design and technology for scalable apps", body: "We start from user-centered design, studying experience, navigability, and flow to create intuitive interfaces. From corporate and educational apps to entertainment platforms, each project is built with precision and scalability." },
-        { title: "Agile methodology and technical quality", body: "We apply agile methodologies with progressive deliveries and constant feedback. We supervise each phase to ensure fast performance, stability, security, and a trend-setting design." },
+        { title: "Scalable native and hybrid code", body: "We start with user experience research to guarantee logical flows. We deliver fast and attractive platforms that run flawlessly on both iOS and Android ecosystems." },
+        { title: "Agile and sustained deployments", body: "We work under intensive sprints that allow for early testing. Thus, we ensure that your application reaches the market free of bottlenecks and ready to scale in infrastructure." },
       ],
     },
     {
       n: "06", code: "DATALINK", title: "DataLink",
-      lead: "Modern applications live connected to a broader digital ecosystem. At LUNBYTE, we create that connection: integrations and connectivity that allow your systems to communicate securely, efficiently, and in real-time.",
+      lead: "We link your platforms with the outside world. Through LUNBYTE, your app will cease to be an island and become an interconnected ecosystem fed by real-time data.",
       blocks: [
-        { title: "Smart integrations for your business", body: "We integrate payment gateways, CRMs, ERPs, notifications, webhooks, and external APIs to automate processes, improve user experience, and boost data flow. Each integration is considered a natural expansion." },
-        { title: "Stability, security, and scalability", body: "We perform exhaustive testing to ensure each connection is stable, secure, and scalable. With DataLink, your application ceases to be an isolated system to become part of a smart network that evolves with you." },
+        { title: "API and connector mapping", body: "We couple payment engines, ERP databases, CRM managers, and push notification systems to centralize your operations and reduce your business's response times." },
+        { title: "High availability infrastructure", body: "We shield every endpoint and optimize queries so that massive information transfer occurs with near-zero latency levels and maximum cryptographic protection." },
       ],
     }
   ] as Mission[],
@@ -309,7 +308,7 @@ const catalogEn = {
         { id: "7395", name: "Quick fix", price: 1000, blurb: "Single screen load optimization, minor bug fixes, and plugin updates." },
         { id: "7396", name: "UI/UX improvements", price: 3000, blurb: "Redesign of 1-2 flows, minor OS version updates, image optimization." },
         { id: "7397", name: "Multiple updates", price: 6000, blurb: "Redesign of multiple screens, OS version adaptation, animation improvements, battery optimization." },
-        { id: "7398", name: "Integral optimization", price: 9000, blurb: "Full optimization service: full module UI/UX redesign, dependency migration, speed optimization, OS compatibility." },
+        { id: "7398", name: "Integral optimization", price: 10000, blurb: "Full optimization service: full module UI/UX redesign, dependency migration, speed optimization, OS compatibility." },
       ],
     },
     {
@@ -326,7 +325,6 @@ const catalogEn = {
   ] as Package[],
 };
 
-// Funciones para consumir el catálogo localizado
 export function getCatalog(lang: "es" | "en") {
   return lang === "es" ? catalogEs : catalogEn;
 }

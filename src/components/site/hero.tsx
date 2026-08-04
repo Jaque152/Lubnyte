@@ -32,15 +32,6 @@ export function Hero() {
               {t.hero.desc}
             </p>
 
-            <div className="mt-9 flex flex-wrap items-center gap-3">
-              <Action href="/#planes" tone="tangerine">
-                {t.hero.btn_start}
-              </Action>
-              <Action href="/#misiones" tone="ghost" className="text-bone">
-                {t.hero.btn_missions}
-              </Action>
-            </div>
-
             <ul className="mt-10 flex flex-wrap gap-x-8 gap-y-3">
               {t.hero.pillars.map((p) => (
                 <li key={p.label} className="flex items-center gap-2.5">

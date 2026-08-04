@@ -17,15 +17,13 @@ export const dictionaries = {
       ]
     },
     hero: {
-      kicker: "La tecnología no solo construye el futuro: lo acelera",
-      title: { p1: "Especialistas", p2: "en", stroke: "apps", tangerine: "móviles", p3: "y", amber: "videojuegos" },
-      desc: "Desde la concepción de la idea hasta su lanzamiento. Construimos mundos jugables, sistemas de progresión y productos móviles que la gente quiere abrir todos los días.",
-      btn_start: "Inicia ahora",
-      btn_missions: "Ver misiones",
+      kicker: "Impulsamos el mañana a través de la tecnología",
+      title: { p1: "Expertos", p2: "en", stroke: "apps", tangerine: "móviles", p3: "y", amber: "videojuegos" },
+      desc: "Llevamos tus ideas a la realidad. Construimos ecosistemas interactivos, mecánicas adictivas y productos digitales que cautivan a los usuarios día tras día.",
       pillars: [
-        { label: "Tecnología", note: "Unity · Unreal · Godot" },
-        { label: "Diseño", note: "2D / 3D · UI / UX" },
-        { label: "Jugabilidad", note: "Balance · Retención" },
+        { label: "Ingeniería", note: "Unity · Unreal · Godot" },
+        { label: "Estética", note: "2D / 3D · UI / UX" },
+        { label: "Experiencia", note: "Balance · Retención" },
       ],
       stats: [
         { k: "07", v: "Líneas de servicio" },
@@ -36,11 +34,11 @@ export const dictionaries = {
       marquee: ["Universo Interactivo", "PowerPlay Corporativo", "Engine Dynamics", "PixelCraft Studio", "AppVerse", "DataLink"],
     },
     tools: {
-      kicker: "Dominamos las herramientas",
-      title: { p1: "El equipo domina los motores más avanzados:", t1: "Unity", p2: "y", t2: "Unreal Engine" },
-      desc: "Lo que nos permite construir mundos detallados, sistemas de progresión equilibrados y experiencias visuales impactantes. Cada textura, cada animación y cada sonido está diseñado para transmitir emoción, desafío y diversión.",
-      sub_title: "Desde juegos casuales y educativos hasta experiencias inmersivas",
-      sub_desc: "Con historias profundas y mecánicas avanzadas. Nos adaptamos al objetivo de cada cliente, ya sea entretener, enseñar o fidelizar.",
+      kicker: "Dominio técnico absoluto",
+      title: { p1: "Exprimimos al máximo los motores líderes:", t1: "Unity", p2: "y", t2: "Unreal Engine" },
+      desc: "Esto nos faculta para diseñar entornos inmersivos, sistemas de juego perfectamente calibrados y apartados gráficos deslumbrantes. Cuidamos cada píxel, transición y efecto sonoro para garantizar máxima diversión y fluidez.",
+      sub_title: "Desde plataformas educativas hasta títulos de alto impacto",
+      sub_desc: "Adaptamos la complejidad de nuestras mecánicas a la visión de tu marca, ya sea para fidelizar clientes, capacitar equipos o liderar las tiendas de aplicaciones.",
       stack_config: "stack.config",
       marquee: ["Concepto", "Prototipo", "Arte", "Mecánicas", "Build", "Publicación", "Live-ops"],
       stack: [
@@ -53,168 +51,168 @@ export const dictionaries = {
       ]
     },
     missionsUI: {
-      kicker: "Misiones tecnológicas",
-      title: { p1: "Cada servicio es", p2: "una", tangerine: "misión", p3: "de desarrollo" },
-      desc: "Diseñada para potenciar tu presencia digital y elevar tu proyecto a nuevas dimensiones. Desde la creación de videojuegos hasta el desarrollo de aplicaciones móviles, trabajamos con precisión, estrategia y creatividad para que cada resultado sea una experiencia única.",
+      kicker: "Servicios estratégicos",
+      title: { p1: "Convertimos cada", p2: "proyecto en una", tangerine: "misión", p3: "de alto nivel" },
+      desc: "Orientados a escalar tu impacto digital, abordamos el desarrollo de software y videojuegos con un enfoque donde la precisión técnica y la inventiva se unen para forjar productos excepcionales.",
       mission_prefix: "Misión",
-      btn: "Ver planes y precios",
+      btn: "Consultar planes y tarifas",
     },
     pricing: {
-      kicker_plans: "Planes",
-      title_plans: { p1: "Tu visión no tiene límites: solo", tangerine: "nuevas dimensiones", p2: "por explorar" },
-      desc_plans: "Selecciona el nivel que se ajusta a tu proyecto y añádelo al carrito. Los precios se muestran en la divisa seleccionada; los impuestos se calculan al finalizar la compra.",
-      kicker_custom: "Servicios individuales",
-      title_custom: { p1: "Servicios", amber: "a la medida" },
+      kicker_plans: "Catálogo de planes",
+      title_plans: { p1: "Tu imaginación dicta el límite:", tangerine: "nosotros ponemos", p2: "el código" },
+      desc_plans: "Elige la categoría que mejor resuelva tus necesidades y súbela al carrito. Los valores se reflejan en tu moneda local; los impuestos correspondientes se aplicarán antes del pago.",
+      kicker_custom: "Módulos independientes",
+      title_custom: { p1: "Soluciones", amber: "a tu medida" },
       plan: "Plan",
       levels: "niveles",
-      btn_start: "Iniciar ahora",
-      added: "añadido"
+      btn_start: "Añadir al carrito",
+      added: "agregado exitosamente"
     },
     customPlan: {
-      tag: "[ Plan personalizado ]",
-      title: "¿Ninguno encaja? Lo construimos contigo",
-      desc: "Contáctanos para diseñar una propuesta adaptada a tus necesidades. Nuestro equipo te asesorará para estructurar el plan perfecto según tu visión, objetivos y presupuesto.",
-      btn_pay: "Pagar ahora",
-      btn_req: "Solicitar un plan",
+      tag: "[ Proyecto a la medida ]",
+      title: "¿Buscas algo único? Lo desarrollamos juntos",
+      desc: "Escríbenos para estructurar una arquitectura técnica y visual que empate a la perfección con tus metas operativas y presupuesto asignado.",
+      btn_pay: "Pagar cotización",
+      btn_req: "Solicitar asesoría",
       perks: [
-        "Flexibilidad total en el alcance del proyecto.",
-        "Escalabilidad técnica y creativa.",
-        "Entregas programadas y soporte continuo.",
-        "Integración completa entre software, arte y experiencia de usuario."
+        "Alcance y requerimientos 100% adaptables.",
+        "Arquitectura de software escalable.",
+        "Cronograma transparente y soporte dedicado.",
+        "Sinergia total entre backend, frontend y diseño de juego."
       ]
-    },
-    contact: {
-      kicker: "Contacto",
-      title: { p1: "Cuéntanos", tangerine: "tu proyecto" },
-      desc: "Completa el formulario y cuéntanos sobre tu proyecto, ya sea una aplicación, un videojuego o una experiencia gamificada.",
-      form: { name: "Nombre", email: "Email", phone: "Teléfono", subject: "Asunto", msg: "Cuéntanos de tu proyecto", btn: "Enviar mensaje", btn_sent: "Mensaje enviado ✓" },
-      toast: { success: "Mensaje enviado", desc: "Te responderemos en menos de 24 horas." },
-      other: "Otras formas de contacto",
-      labels: { email: "Email", phone: "Teléfono", office: "Oficina" },
-      schedule: { title: "Horario", days: "Lun — Vie · 09:00 a 19:00", tz: "Zona horaria Ciudad de México (GMT-6)", badge: "Aceptando proyectos Q3" }
-    },
-    footer: {
-      tag: "[ Empieza el viaje ]",
-      title: "Construye, previsualiza y despliega a escala",
-      btn_plans: "Ver planes",
-      desc: "Estudio de desarrollo de videojuegos y aplicaciones móviles. Del concepto al lanzamiento, con arte, ingeniería y datos en la misma mesa.",
-      missions: "Misiones",
-      plans: "Planes",
-      copyright: "Lunbyte", 
-      rights: "© Todos los derechos reservados.",
-      legal: { privacy: "Aviso de privacidad", terms: "Términos y condiciones", returns: "Política de devoluciones" }
-    },
-    cart: {
-      title: "Carrito",
-      empty_title: "Tu carrito está vacío",
-      empty_desc: "Elige una misión y comienza el despegue.",
-      btn_plans: "Ver planes",
-      subtotal: "Subtotal",
-      vat: "IVA 16%",
-      total: "Total",
-      btn_checkout: "Ir al checkout",
-      btn_explore: "Seguir explorando misiones"
-    },
-    valuesUI: {
-      kicker: "¿Por qué Lunbyte?", 
-      title: { p1: "Desde la concepción", p2: "de la idea hasta", tangerine: "su lanzamiento" },
-      desc: "Cuatro principios sostienen cada proyecto que sale del estudio. No son valores de brochure: son las reglas con las que decidimos alcance, presupuesto y tiempos."
-    },
-    checkout: {
-      empty: {
-        kicker: "Checkout",
-        title: "Tu carrito está vacío",
-        desc: "Selecciona una misión desde los planes y vuelve aquí para completar el despegue.",
-        btn: "Explorar planes"
-      },
-      header: { back: "Volver a planes", kicker: "Checkout seguro", title: { p1: "Finalizar", tangerine: "compra" }, folio: "Folio" },
-      sections: { s1: "01 — Tus datos", s2: "02 — Facturación", s3: "03 — Método de pago", s4: "04 — Brief del proyecto" },
-      fields: {
-        name: "Nombre completo *", name_ph: "Ada Lovelace",
-        email: "Correo electrónico *", email_ph: "tu@empresa.com",
-        phone: "Teléfono *", phone_ph: "55 1234 5678",
-        company: "Empresa (opcional)", company_ph: "Estudio / marca",
-        invoice: "Requiero factura fiscal (CFDI)",
-        rfc: "RFC *", rfc_ph: "XAXX010101000",
-        zip: "Código postal", zip_ph: "11560",
-        address: "Calle y número", address_ph: "Av. Homero 404",
-        city: "Ciudad / Estado", city_ph: "CDMX",
-        card: "Número de tarjeta *",
-        exp: "Exp. *",
-        cvv: "CVV *",
-        notes: "Cuéntanos qué necesitas (opcional)", notes_ph: "Referencias, plazos, plataformas objetivo…"
-      },
-      errors: {
-        name: "Escribe tu nombre completo",
-        email: "Correo no válido",
-        phone: "10 dígitos mínimo",
-        rfc: "RFC no válido",
-        card: "Número incompleto",
-        exp: "MM/AA",
-        cvv: "3 dígitos"
-      },
-      methods: {
-        card: { label: "Tarjeta", note: "Visa · Mastercard · AmEx" },
-        spei: { label: "Transferencia SPEI", note: "CLABE interbancaria", alert: "Recibirás las instrucciones y el folio de referencia por correo al confirmar el pedido.", clabe: "CLABE de depósito" },
-        oxxo: { label: "Pago en efectivo", note: "Referencia OXXO", alert: "Generaremos tu ficha con código de barras al confirmar. El proyecto se agenda cuando se acredita el pago.", validity: "Vigencia 72 horas" }
-      },
-      summary: {
-        title: "Resumen",
-        subtotal: "Subtotal",
-        vat: "IVA 16%",
-        mgmt: "Gestión de proyecto",
-        mgmt_val: "Incluida",
-        total: "Total",
-        btn: "Confirmar pedido",
-        btn_loading: "Procesando…",
-        secure: "Pago cifrado · Sin cargos ocultos"
-      },
-      next: {
-        title: "Qué pasa después",
-        steps: [
-          "Confirmamos el pedido por correo en minutos.",
-          "Agendamos una sesión de kickoff de 30 min.",
-          "Recibes cronograma y accesos al tablero."
-        ]
-      }
-    },
-    confirmation: {
-      empty: {
-        kicker: "Sin pedidos recientes",
-        title: "No encontramos tu pedido",
-        desc: "Es posible que hayas limpiado el navegador. Escríbenos y lo recuperamos con tu folio.",
-        btn_plans: "Ver planes",
-        btn_contact: "Contactar"
-      },
-      success: {
-        kicker: "Pedido confirmado",
-        title: { p1: "Despegue", tangerine: "autorizado" },
-        desc: { p1: "Gracias,", p2: ". Enviamos la confirmación a", p3: ". Nuestro equipo se pondrá en contacto para agendar el kickoff." }
-      },
-      details: { folio: "Folio", date: "Fecha", method: "Método", status: "Estado", status_val: "En revisión" },
-      items: { title: "Misiones contratadas" },
-      totals: { subtotal: "Subtotal", vat: "IVA 16%", total: "Total pagado" },
-      steps: [
-        { title: "Revisa tu correo", body: "Te enviamos el comprobante y el detalle fiscal del pedido." },
-        { title: "Kickoff en 48 h", body: "Agendamos una sesión de 30 minutos para alinear alcance y tiempos." },
-        { title: "Producción", body: "Recibirás accesos al tablero con entregas semanales." }
-      ],
-      actions: { home: "Volver al inicio", another: "Añadir otra misión" },
-      marquee: ["Gracias por confiar", "Lunbyte", "Misión en curso"]
     },
     customPayment: {
       kicker: "Plan a la medida",
       title: { p1: "Pago de", tangerine: "proyecto" },
-      desc: "Ingresa los detalles proporcionados por nuestro equipo para añadir tu plan personalizado al carrito.",
+      desc: "Ingresa los detalles proporcionados por nuestro equipo para añadir tu plan personalizado al carrito de compras de Lunbyte.",
       form: {
         amount: "Monto acordado *", amount_ph: "Ej. 15000",
         folio: "Folio de cotización *", folio_ph: "LB-XXXXXX",
         name: "Nombre del proyecto o cliente *", name_ph: "Proyecto Alpha",
         btn: "Añadir al carrito",
-        added: "Plan añadido al carrito"
+        added: "Plan especial añadido"
       }
+    },
+    contact: {
+      kicker: "Conectemos",
+      title: { p1: "Hablemos de", tangerine: "tu próxima idea" },
+      desc: "Proporciónanos los detalles preliminares de tu aplicación, juego o sistema gamificado, y nuestro equipo técnico evaluará la viabilidad de inmediato.",
+      form: { name: "Nombre completo", email: "Correo corporativo", phone: "Número de teléfono", subject: "Motivo del contacto", msg: "Describe brevemente tus requerimientos", btn: "Enviar solicitud", btn_sent: "Solicitud enviada ✓" },
+      toast: { success: "Hemos recibido tu mensaje", desc: "Un especialista te contactará en las próximas 24 horas." },
+      other: "Canales alternativos",
+      labels: { email: "Correo", phone: "Teléfono directo", office: "Sede central" },
+      schedule: { title: "Disponibilidad", days: "Lunes a Viernes · 09:00 - 19:00", tz: "Hora estándar del centro (GMT-6)", badge: "Agenda abierta para Q3" }
+    },
+    footer: {
+      tag: "[ Inicializa tu sistema ]",
+      title: "Proyecta, programa y despliega sin límites",
+      btn_plans: "Explorar catálogo",
+      marquee: ["Lunbyte", "Game Studio", "App Studio", "CDMX"],
+      desc: "Agencia de software especializada en gaming y ecosistemas móviles. Fusionamos creatividad, ingeniería analítica en un solo núcleo de desarrollo.",
+      missions: "Servicios",
+      plans: "Tarifas",
+      copyright: "Lunbyte",
+      rights: "© Todos los derechos reservados.",
+      legal: { privacy: "Políticas de Privacidad", terms: "Términos de Uso", returns: "Políticas de Reembolso" }
+    },
+    cart: {
+      title: "Cesta de misiones",
+      empty_title: "Tu cesta está inactiva",
+      empty_desc: "Selecciona una o más misiones de nuestro catálogo para iniciar el despegue.",
+      btn_plans: "Ver catálogo completo",
+      subtotal: "Subtotal",
+      vat: "IVA (16%)",
+      total: "Total a pagar",
+      btn_checkout: "Proceder al pago",
+      btn_explore: "Continuar navegando"
+    },
+    valuesUI: {
+      kicker: "El ADN de Lunbyte",
+      title: { p1: "Acompañamiento total", p2: "desde el boceto hasta", tangerine: "el despliegue" },
+      desc: "Nuestro trabajo se rige por cuatro pilares fundamentales. Más que promesas corporativas, son los estándares con los que garantizamos excelencia, tiempos y viabilidad."
+    },
+    checkout: {
+      empty: {
+        kicker: "Checkout",
+        title: "No hay elementos por procesar",
+        desc: "Dirígete a la sección de planes, elige el nivel que necesites y regresa aquí para completar tu pago.",
+        btn: "Ir a planes"
+      },
+      header: { back: "Regresar al catálogo", kicker: "Pasarela cifrada", title: { p1: "Completar", tangerine: "transacción" }, folio: "Orden" },
+      sections: { s1: "01 — Información de contacto", s2: "02 — Datos de facturación", s3: "03 — Credenciales de pago", s4: "04 — Especificaciones extra" },
+      fields: {
+        name: "Nombre completo *", name_ph: "Ada Lovelace",
+        email: "Email de contacto *", email_ph: "hola@empresa.com",
+        phone: "Teléfono móvil *", phone_ph: "55 0000 0000",
+        company: "Razón social (opcional)", company_ph: "Estudio / Agencia",
+        invoice: "Solicitar factura fiscal electrónica (CFDI)",
+        rfc: "RFC", rfc_ph: "XAXX010101000",
+        country: "País *", country_ph: "México",
+        zip: "Código Postal", zip_ph: "11560",
+        address: "Dirección completa", address_ph: "Av. Paseo de la Reforma 202",
+        city: "Ciudad y Estado", city_ph: "Ciudad de México",
+        cardName: "Nombre impreso en la tarjeta *", cardName_ph: "Ej. Ada Lovelace",
+        card: "Dígitos de la tarjeta *",
+        exp: "Vencimiento *",
+        cvv: "Código de seguridad *",
+        notes: "Instrucciones adicionales (opcional)", notes_ph: "Dudas, plataformas requeridas, fechas de entrega deseadas..."
+      },
+      errors: {
+        name: "Requerimos tu nombre completo",
+        email: "Formato de correo inválido",
+        phone: "Debe contener al menos 10 dígitos",
+        rfc: "Verifica el formato del RFC",
+        card: "Revisa los 16 dígitos de tu tarjeta",
+        exp: "Usa el formato MM/AA",
+        cvv: "Código de 3 o 4 dígitos"
+      },
+      methods: {
+        card: { label: "Pago con Tarjeta", note: "Crédito o débito (Visa, Mastercard, AmEx)" },
+        spei: { label: "Transferencia Bancaria", note: "Vía SPEI", alert: "Al confirmar, te enviaremos la CLABE interbancaria a tu correo electrónico.", clabe: "Cuenta CLABE asignada" },
+        oxxo: { label: "Depósito en efectivo", note: "Sucursales OXXO", alert: "Tu recibo con código de barras se generará en la siguiente pantalla. Sujeto a acreditación en sistema.", validity: "Límite de pago: 72h" }
+      },
+      summary: {
+        title: "Resumen de orden",
+        subtotal: "Subtotal",
+        vat: "Impuestos (16%)",
+        mgmt: "Administración del proyecto",
+        mgmt_val: "Sin costo adicional",
+        total: "Cargo total",
+        btn: "Procesar pago ahora",
+        btn_loading: "Cifrando y conectando con el banco...",
+        secure: "Entorno seguro · Transacción protegida"
+      },
+      next: {
+        title: "Siguientes pasos",
+        steps: [
+          "Recibirás tu recibo oficial vía correo electrónico de forma automática.",
+          "Asignaremos un gerente de proyecto para tu cuenta.",
+          "Agendaremos nuestra primera videollamada para el kickoff operativo."
+        ]
+      }
+    },
+    confirmation: {
+      empty: {
+        kicker: "Historial vacío",
+        title: "Sesión de compra caducada",
+        desc: "No detectamos una orden reciente. Si acabas de realizar un pago y tu navegador se recargó, contáctanos indicando tu correo.",
+        btn_plans: "Ver catálogo",
+        btn_contact: "Soporte técnico"
+      },
+      success: {
+        kicker: "Transacción aprobada",
+        title: { p1: "Sistemas", tangerine: "en línea" },
+        desc: { p1: "Todo listo,", p2: ". Hemos despachado tu recibo digital a", p3: ". En breve, nuestro equipo de operaciones abrirá tu canal de comunicación." }
+      },
+      details: { folio: "Orden", date: "Procesado el", method: "Vía", status: "Estatus", status_val: "Pago confirmado" },
+      items: { title: "Desglose de servicios" },
+      totals: { subtotal: "Monto base", vat: "Impuestos", total: "Total liquidado" },
+      steps: [
+        { title: "Bandeja de entrada", body: "Revisa tu correo; te hemos enviado la factura y detalles técnicos." },
+      ],
+      actions: { home: "Pantalla principal", another: "Contratar otro módulo" },
+      marquee: ["Pago exitoso", "Lunbyte Studio", "Operación iniciada"]
     }
-
   },
   en: {
     nav: {
@@ -234,15 +232,13 @@ export const dictionaries = {
       ]
     },
     hero: {
-      kicker: "Technology doesn't just build the future: it accelerates it",
-      title: { p1: "Specialists", p2: "in mobile", stroke: "apps", tangerine: "and", p3: "", amber: "video games" },
-      desc: "From idea conception to launch. We build playable worlds, progression systems, and mobile products people want to open every day.",
-      btn_start: "Start now",
-      btn_missions: "View missions",
+      kicker: "Powering tomorrow through technology",
+      title: { p1: "Experts", p2: "in", stroke: "mobile", tangerine: "apps", p3: "&", amber: "gaming" },
+      desc: "We turn your ideas into reality by building interactive ecosystems, addictive mechanics, and digital products that captivate users day after day.",
       pillars: [
-        { label: "Technology", note: "Unity · Unreal · Godot" },
-        { label: "Design", note: "2D / 3D · UI / UX" },
-        { label: "Gameplay", note: "Balance · Retention" },
+        { label: "Engineering", note: "Unity · Unreal · Godot" },
+        { label: "Aesthetics", note: "2D / 3D · UI / UX" },
+        { label: "Experience", note: "Balance · Retention" },
       ],
       stats: [
         { k: "07", v: "Service lines" },
@@ -253,11 +249,11 @@ export const dictionaries = {
       marquee: ["Interactive Universe", "Corporate PowerPlay", "Engine Dynamics", "PixelCraft Studio", "AppVerse", "DataLink"],
     },
     tools: {
-      kicker: "We master the tools",
-      title: { p1: "The team masters the most advanced engines:", t1: "Unity", p2: "and", t2: "Unreal Engine" },
-      desc: "Which allows us to build detailed worlds, balanced progression systems, and striking visual experiences. Every texture, animation, and sound is designed to convey emotion, challenge, and fun.",
-      sub_title: "From casual and educational games to immersive experiences",
-      sub_desc: "With deep stories and advanced mechanics. We adapt to each client's goal, whether it's to entertain, teach, or build loyalty.",
+      kicker: "Absolute technical mastery",
+      title: { p1: "We maximize industry-leading engines:", t1: "Unity", p2: "and", t2: "Unreal Engine" },
+      desc: "This empowers us to design immersive environments, perfectly calibrated game systems, and stunning graphics. We care for every pixel, transition, and sound effect to guarantee maximum fun and fluidity.",
+      sub_title: "From educational platforms to high-impact titles",
+      sub_desc: "We adapt our mechanical complexity to your brand's vision, whether it's to build customer loyalty, train corporate teams, or top the app store charts.",
       stack_config: "stack.config",
       marquee: ["Concept", "Prototype", "Art", "Mechanics", "Build", "Publishing", "Live-ops"],
       stack: [
@@ -270,168 +266,168 @@ export const dictionaries = {
       ]
     },
     missionsUI: {
-      kicker: "Tech Missions",
-      title: { p1: "Every service is", p2: "a development", tangerine: "mission", p3: "" },
-      desc: "Designed to boost your digital presence and elevate your project to new dimensions. From video game creation to mobile app development, we work with precision, strategy, and creativity to make every outcome a unique experience.",
+      kicker: "Strategic Services",
+      title: { p1: "We turn every", p2: "project into a", tangerine: "high-level", p3: "mission" },
+      desc: "Geared to scale your digital impact, we approach software and game development with a focus where technical precision and inventiveness unite to forge exceptional products.",
       mission_prefix: "Mission",
-      btn: "View plans and pricing",
+      btn: "Check plans & pricing",
     },
     pricing: {
-      kicker_plans: "Plans",
-      title_plans: { p1: "Your vision has no limits: only", tangerine: "new dimensions", p2: "to explore" },
-      desc_plans: "Select the tier that fits your project and add it to the cart. Prices are shown in the selected currency; taxes are calculated at checkout.",
-      kicker_custom: "Individual Services",
-      title_custom: { p1: "Custom", amber: "Services" },
+      kicker_plans: "Plan Catalog",
+      title_plans: { p1: "Your imagination sets the limit:", tangerine: "we provide", p2: "the code" },
+      desc_plans: "Choose the category that best solves your needs and add it to your cart. Values are reflected in your local currency; corresponding taxes will be applied before payment.",
+      kicker_custom: "Independent Modules",
+      title_custom: { p1: "Tailored", amber: "Solutions" },
       plan: "Plan",
       levels: "tiers",
-      btn_start: "Start now",
-      added: "added"
+      btn_start: "Add to cart",
+      added: "successfully added"
     },
     customPlan: {
-      tag: "[ Custom Plan ]",
-      title: "None fits? We build it with you",
-      desc: "Contact us to design a proposal adapted to your needs. Our team will advise you to structure the perfect plan based on your vision, goals, and budget.",
-      btn_pay: "Pay now",
-      btn_req: "Request a plan",
+      tag: "[ Custom Project ]",
+      title: "Looking for something unique? Let's build it together",
+      desc: "Write to us to structure a technical and visual architecture that perfectly matches your operational goals and allocated budget.",
+      btn_pay: "Pay custom quote",
+      btn_req: "Request consultation",
       perks: [
-        "Total flexibility in project scope.",
-        "Technical and creative scalability.",
-        "Scheduled deliveries and continuous support.",
-        "Full integration between software, art, and UX."
+        "100% adaptable scope and requirements.",
+        "Scalable software architecture.",
+        "Transparent timeline and dedicated support.",
+        "Total synergy between backend, frontend, and game design."
       ]
     },
-    contact: {
-      kicker: "Contact",
-      title: { p1: "Tell us about", tangerine: "your project" },
-      desc: "Fill out the form and tell us about your project, whether it's an app, a video game, or a gamified experience.",
-      form: { name: "Name", email: "Email", phone: "Phone", subject: "Subject", msg: "Tell us about your project", btn: "Send message", btn_sent: "Message sent ✓" },
-      toast: { success: "Message sent", desc: "We will reply in less than 24 hours." },
-      other: "Other ways to contact",
-      labels: { email: "Email", phone: "Phone", office: "Office" },
-      schedule: { title: "Schedule", days: "Mon — Fri · 09:00 to 19:00", tz: "Mexico City Timezone (GMT-6)", badge: "Accepting Q3 projects" }
-    },
-    footer: {
-      tag: "[ Start the journey ]",
-      title: "Build, preview and deploy at scale",
-      btn_plans: "View plans",
-      desc: "Video game and mobile app development studio. From concept to launch, bringing art, engineering, and data to the same table.",
-      missions: "Missions",
-      plans: "Plans",
-      copyright: "Lunbyte",
-      rights: "© All rights reserved.",
-      legal: { privacy: "Privacy Policy", terms: "Terms & Conditions", returns: "Return Policy" }
-    },
-    cart: {
-      title: "Cart",
-      empty_title: "Your cart is empty",
-      empty_desc: "Choose a mission and start the liftoff.",
-      btn_plans: "View plans",
-      subtotal: "Subtotal",
-      vat: "VAT 16%",
-      total: "Total",
-      btn_checkout: "Go to checkout",
-      btn_explore: "Keep exploring missions"
-    },
-    valuesUI: {
-      kicker: "Why Lunbyte?",
-      title: { p1: "From idea", p2: "conception to", tangerine: "launch" },
-      desc: "Four principles support every project that comes out of the studio. They are not brochure values: they are the rules by which we decide scope, budget, and timelines."
-    },
-    checkout: {
-      empty: {
-        kicker: "Checkout",
-        title: "Your cart is empty",
-        desc: "Select a mission from our plans and come back here to complete liftoff.",
-        btn: "Explore plans"
-      },
-      header: { back: "Back to plans", kicker: "Secure checkout", title: { p1: "Complete", tangerine: "purchase" }, folio: "Order ID" },
-      sections: { s1: "01 — Your details", s2: "02 — Billing", s3: "03 — Payment method", s4: "04 — Project brief" },
-      fields: {
-        name: "Full name *", name_ph: "Ada Lovelace",
-        email: "Email address *", email_ph: "you@company.com",
-        phone: "Phone number *", phone_ph: "+1 555 0199",
-        company: "Company (optional)", company_ph: "Studio / brand",
-        invoice: "I need a tax invoice",
-        rfc: "Tax ID *", rfc_ph: "XAXX010101000",
-        zip: "Zip code", zip_ph: "10001",
-        address: "Street address", address_ph: "123 Main St",
-        city: "City / State", city_ph: "New York, NY",
-        card: "Card number *",
-        exp: "Exp. *",
-        cvv: "CVV *",
-        notes: "Tell us what you need (optional)", notes_ph: "References, deadlines, target platforms…"
-      },
-      errors: {
-        name: "Enter your full name",
-        email: "Invalid email",
-        phone: "Min. 10 digits",
-        rfc: "Invalid Tax ID",
-        card: "Incomplete number",
-        exp: "MM/YY",
-        cvv: "3 digits"
-      },
-      methods: {
-        card: { label: "Credit Card", note: "Visa · Mastercard · AmEx" },
-        spei: { label: "Bank Transfer", note: "Wire Transfer", alert: "You will receive instructions and reference code via email upon order confirmation.", clabe: "Routing / Account" },
-        oxxo: { label: "Cash Payment", note: "Convenience store", alert: "We will generate a barcode for you. The project is scheduled once the payment is cleared.", validity: "Valid for 72 hours" }
-      },
-      summary: {
-        title: "Summary",
-        subtotal: "Subtotal",
-        vat: "Taxes",
-        mgmt: "Project management",
-        mgmt_val: "Included",
-        total: "Total",
-        btn: "Confirm order",
-        btn_loading: "Processing…",
-        secure: "Encrypted payment · No hidden fees"
-      },
-      next: {
-        title: "What happens next",
-        steps: [
-          "We confirm the order via email in minutes.",
-          "We schedule a 30-min kickoff session.",
-          "You receive the timeline and dashboard access."
-        ]
-      }
-    },
-    confirmation: {
-      empty: {
-        kicker: "No recent orders",
-        title: "We couldn't find your order",
-        desc: "You might have cleared your browser. Contact us and we will recover it with your Order ID.",
-        btn_plans: "View plans",
-        btn_contact: "Contact us"
-      },
-      success: {
-        kicker: "Order confirmed",
-        title: { p1: "Liftoff", tangerine: "authorized" },
-        desc: { p1: "Thank you,", p2: ". We sent the confirmation to", p3: ". Our team will contact you to schedule the kickoff." }
-      },
-      details: { folio: "Order ID", date: "Date", method: "Method", status: "Status", status_val: "Under review" },
-      items: { title: "Contracted Missions" },
-      totals: { subtotal: "Subtotal", vat: "Taxes", total: "Total paid" },
-      steps: [
-        { title: "Check your email", body: "We sent you the receipt and tax details of your order." },
-        { title: "Kickoff in 48h", body: "We schedule a 30-minute session to align scope and timelines." },
-        { title: "Production", body: "You will receive dashboard access with weekly deliveries." }
-      ],
-      actions: { home: "Back to home", another: "Add another mission" },
-      marquee: ["Thank you for trusting", "Lunbyte", "Mission in progress"]
-    },
     customPayment: {
-      kicker: "Custom Plan",
+      kicker: "Tailored Plan",
       title: { p1: "Project", tangerine: "Payment" },
-      desc: "Enter the details provided by our team to add your custom plan to the cart.",
+      desc: "Enter the details provided by our team to add your custom plan to your Lunbyte shopping cart.",
       form: {
         amount: "Agreed amount *", amount_ph: "e.g. 1500",
         folio: "Quote ID *", folio_ph: "LB-XXXXXX",
         name: "Project or client name *", name_ph: "Project Alpha",
         btn: "Add to cart",
-        added: "Plan added to cart"
+        added: "Special plan added"
       }
+    },
+    contact: {
+      kicker: "Let's connect",
+      title: { p1: "Let's talk about", tangerine: "your next idea" },
+      desc: "Provide us with the preliminary details of your app, game, or gamified system, and our technical team will evaluate its feasibility immediately.",
+      form: { name: "Full name", email: "Corporate email", phone: "Phone number", subject: "Reason for contact", msg: "Briefly describe your requirements", btn: "Submit request", btn_sent: "Request sent ✓" },
+      toast: { success: "Message received", desc: "A specialist will contact you within the next 24 hours." },
+      other: "Alternative channels",
+      labels: { email: "Email", phone: "Direct line", office: "Headquarters" },
+      schedule: { title: "Availability", days: "Monday to Friday · 09:00 - 19:00", tz: "Central Standard Time (GMT-6)", badge: "Open schedule for Q3" }
+    },
+    footer: {
+      tag: "[ Initialize your system ]",
+      title: "Design, code, and deploy without limits",
+      btn_plans: "Explore catalog",
+      marquee: ["Lunbyte", "Game Studio", "App Studio", "CDMX"],
+      desc: "Software agency specializing in gaming and mobile ecosystems. We fuse creativity, engineering, and analytics into a single development core.",
+      missions: "Services",
+      plans: "Rates",
+      copyright: "Lunbyte",
+      rights: "© All rights reserved.",
+      legal: { privacy: "Privacy Policy", terms: "Terms of Use", returns: "Refund Policy" }
+    },
+    cart: {
+      title: "Mission Basket",
+      empty_title: "Your basket is inactive",
+      empty_desc: "Select one or more missions from our catalog to initiate liftoff.",
+      btn_plans: "View full catalog",
+      subtotal: "Subtotal",
+      vat: "Tax (16%)",
+      total: "Total to pay",
+      btn_checkout: "Proceed to checkout",
+      btn_explore: "Keep browsing"
+    },
+    valuesUI: {
+      kicker: "Lunbyte's DNA",
+      title: { p1: "Full accompaniment", p2: "from sketch to", tangerine: "deployment" },
+      desc: "Our work is governed by four fundamental pillars. More than corporate promises, they are the standards by which we guarantee excellence, timing, and viability."
+    },
+    checkout: {
+      empty: {
+        kicker: "Checkout",
+        title: "No items to process",
+        desc: "Head over to the plans section, choose the tier you need, and return here to complete your payment.",
+        btn: "Go to plans"
+      },
+      header: { back: "Return to catalog", kicker: "Encrypted Gateway", title: { p1: "Complete", tangerine: "transaction" }, folio: "Order" },
+      sections: { s1: "01 — Contact Information", s2: "02 — Billing Details", s3: "03 — Payment Credentials", s4: "04 — Extra Specifications" },
+      fields: {
+        name: "Full Name *", name_ph: "Ada Lovelace",
+        email: "Contact Email *", email_ph: "hello@company.com",
+        phone: "Mobile Phone *", phone_ph: "+1 555 0000",
+        company: "Company Name (optional)", company_ph: "Studio / Agency",
+        invoice: "Request electronic tax invoice",
+        rfc: "Tax ID", rfc_ph: "XAXX010101000",
+        country: "Country *", country_ph: "United States",
+        zip: "Zip/Postal Code", zip_ph: "10001",
+        address: "Full Address", address_ph: "123 Innovation Drive",
+        city: "City & State", city_ph: "New York, NY",
+        cardName: "Name printed on card *", cardName_ph: "e.g. Ada Lovelace",
+        card: "Card Digits *",
+        exp: "Expiration *",
+        cvv: "Security Code *",
+        notes: "Additional Instructions (optional)", notes_ph: "Questions, required platforms, desired delivery dates..."
+      },
+      errors: {
+        name: "Full name is required",
+        email: "Invalid email format",
+        phone: "Must contain at least 10 digits",
+        rfc: "Verify the Tax ID format",
+        card: "Check your 16 card digits",
+        exp: "Use MM/YY format",
+        cvv: "3 or 4 digit code"
+      },
+      methods: {
+        card: { label: "Card Payment", note: "Credit or debit (Visa, Mastercard, AmEx)" },
+        spei: { label: "Bank Transfer", note: "Via Wire Transfer", alert: "Upon confirmation, we will send the bank account details to your email.", clabe: "Assigned Account" },
+        oxxo: { label: "Cash Deposit", note: "Convenience Stores", alert: "Your barcode receipt will be generated on the next screen. Subject to system accreditation.", validity: "Payment limit: 72h" }
+      },
+      summary: {
+        title: "Order Summary",
+        subtotal: "Subtotal",
+        vat: "Taxes (16%)",
+        mgmt: "Project Management",
+        mgmt_val: "No extra cost",
+        total: "Total Charge",
+        btn: "Process payment now",
+        btn_loading: "Encrypting and connecting with bank...",
+        secure: "Secure environment · Protected transaction"
+      },
+      next: {
+        title: "Next Steps",
+        steps: [
+          "You will receive your official receipt via email automatically.",
+          "We will assign a dedicated project manager to your account.",
+          "We will schedule our first video call for the operational kickoff."
+        ]
+      }
+    },
+    confirmation: {
+      empty: {
+        kicker: "Empty History",
+        title: "Purchase session expired",
+        desc: "We couldn't detect a recent order. If you just made a payment and your browser reloaded, contact us with your email.",
+        btn_plans: "View catalog",
+        btn_contact: "Tech support"
+      },
+      success: {
+        kicker: "Transaction Approved",
+        title: { p1: "Systems", tangerine: "online" },
+        desc: { p1: "All set,", p2: ". We have dispatched your digital receipt to", p3: ". Shortly, our operations team will open your communication channel." }
+      },
+      details: { folio: "Order", date: "Processed on", method: "Via", status: "Status", status_val: "Payment confirmed" },
+      items: { title: "Service Breakdown" },
+      totals: { subtotal: "Base amount", vat: "Taxes", total: "Total settled" },
+      steps: [
+        { title: "Inbox", body: "Check your email; we have sent you the invoice and technical details." },
+      ],
+      actions: { home: "Main screen", another: "Hire another module" },
+      marquee: ["Payment successful", "Lunbyte Studio", "Operation initiated"]
     }
-    
   },
 };
 

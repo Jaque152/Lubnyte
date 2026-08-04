@@ -35,7 +35,7 @@ export function Logo({
             compact ? "text-base" : "text-xl",
           )}
         >
-          Nexa<span className="text-tangerine">Tower</span>
+          LUN<span className="text-tangerine">BYTE</span>
         </span>
         <span className="mt-0.5 font-mono text-[8px] uppercase tracking-[0.32em] text-bone-dim/50">
           Game &amp; App Studio

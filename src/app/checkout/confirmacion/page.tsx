@@ -84,7 +84,6 @@ export default function ConfirmacionPage() {
               { k: t.confirmation.details.folio, v: lastOrder.folio },
               { k: t.confirmation.details.date, v: date },
               { k: t.confirmation.details.method, v: lastOrder.method },
-              { k: t.confirmation.details.status, v: t.confirmation.details.status_val },
             ].map((row) => (
               <div key={row.k} className="flex items-center justify-between border-b border-ink-line px-4 py-3 last:border-0">
                 <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-bone-dim/40">{row.k}</span>
@@ -151,9 +150,6 @@ export default function ConfirmacionPage() {
             <div className="flex flex-wrap gap-3 pt-2">
               <Action href="/" tone="tangerine">
                 {t.confirmation.actions.home}
-              </Action>
-              <Action href="/#planes" tone="ghost" className="text-bone">
-                {t.confirmation.actions.another}
               </Action>
             </div>
           </div>
