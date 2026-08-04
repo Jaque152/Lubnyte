@@ -1,4 +1,3 @@
-// src/app/api/checkout/route.ts
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -12,14 +11,34 @@ interface CheckoutItemPayload {
   quantity: number;
 }
 
+interface CustomerInformation {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone1: string;
+  city: string;
+  address1: string;
+  postalCode: string;
+  state: string;
+  country: string;
+}
+
+interface CardInformation {
+  cardNumber: string;
+  cardholderName: string;
+  expirationMonth: string;
+  expirationYear: string;
+  cvv: string;
+}
+
 interface CheckoutRequestPayload {
   amount: number;
   subtotal: number;
   iva: number;
   reference: string;
   lang?: "es" | "en";
-  customerInformation: any;
-  cardInformation: any;
+  customerInformation: CustomerInformation;
+  cardInformation: CardInformation;
   items: CheckoutItemPayload[];
 }
 
@@ -89,7 +108,6 @@ export async function POST(
 
     const etominUser = process.env.ETOMIN_USER;
     const etominPassword = process.env.ETOMIN_PASSWORD;
-    // CORRECCIÓN URL: pagos.etomin.com en lugar de api.etomin.com
     const etominApiUrl = process.env.ETOMIN_API_URL || "https://pagos.etomin.com/api/v1";
 
     if (!etominUser || !etominPassword) {
@@ -129,7 +147,6 @@ export async function POST(
     const signinRes = await fetch(`${etominApiUrl}/signin`, {
       method: "POST",
       headers: baseHeaders,
-      // CORRECCIÓN PAYLOAD: Etomin espera "email" no "user"
       body: JSON.stringify({ email: etominUser, password: etominPassword }),
     });
 
@@ -211,7 +228,7 @@ export async function POST(
         address1: customerInformation.address1,
         postalCode: customerInformation.postalCode,
         state: customerInformation.state,
-        country: customerInformation.country || "MX", // Mandamos el país
+        country: customerInformation.country || "MX",
         ip: request.headers.get("x-forwarded-for") || "127.0.0.1",
       },
       cardData: {
@@ -262,7 +279,7 @@ export async function POST(
     const authorizationNumber = saleData.authorizationNumber || "AUT-OK";
 
     // ==========================================
-    // 4. ENVÍO DE CORREOS CON RESEND (LUNBYTE)
+    // 4. ENVÍO DE CORREOS CON RESEND
     // ==========================================
     if (process.env.RESEND_API_KEY) {
       const isEs = lang === "es";
@@ -285,7 +302,6 @@ export async function POST(
         .join("");
 
       try {
-        // Correo al Cliente
         await resend.emails.send({
           from: `Lunbyte <${adminEmail}>`,
           to: customerEmail,
@@ -320,7 +336,6 @@ export async function POST(
             </div>`,
         });
 
-        // Correo al Administrador
         await resend.emails.send({
           from: `Sistema Lunbyte <${adminEmail}>`,
           to: adminEmail,
@@ -340,7 +355,7 @@ export async function POST(
               <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">${itemsHtmlTable}</table>
             </div>`,
         });
-      } catch (emailErr) {
+      } catch (emailErr: unknown) {
         console.error("[Resend Excepción]:", emailErr);
       }
     }
