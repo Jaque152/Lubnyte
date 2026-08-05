@@ -113,7 +113,7 @@ export const dictionaries = {
       plans: "Tarifas",
       copyright: "Lunbyte",
       rights: "© Todos los derechos reservados.",
-      legal: { privacy: "Políticas de Privacidad", terms: "Términos de Uso", returns: "Políticas de Reembolso" }
+      legal: { privacy: " Aviso de Privacidad", terms: "Términos y Condiciones ", returns: "Política de Reembolsos y Devoluciones " }
     },
     cart: {
       title: "Cesta de misiones",
@@ -328,7 +328,7 @@ export const dictionaries = {
       plans: "Rates",
       copyright: "Lunbyte",
       rights: "© All rights reserved.",
-      legal: { privacy: "Privacy Policy", terms: "Terms of Use", returns: "Refund Policy" }
+      legal: { privacy: "Privacy Policy", terms: "Terms and Conditions", returns: "Refund Policy" }
     },
     cart: {
       title: "Mission Basket",
