@@ -13,9 +13,9 @@ export function Footer() {
   const half = Math.ceil(missions.length / 2);
 
   const legal = [
-    { label: t.footer.legal.privacy, href: "/#contacto" },
-    { label: t.footer.legal.terms, href: "/#contacto" },
-    { label: t.footer.legal.returns, href: "/#contacto" },
+    { label: t.footer.legal.privacy, href: "/privacidad" },
+    { label: t.footer.legal.terms, href: "/terminos" },
+    { label: t.footer.legal.returns, href: "/reembolsos" },
   ];
 
   return (
